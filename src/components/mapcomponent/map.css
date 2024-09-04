@@ -1,0 +1,41 @@
+
+  *{
+    font-family: serif;
+    line-height: 1.6;
+    color: #000000;
+
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .location-list {
+    height: 300px;
+    overflow-y: auto;
+  }
+  button {
+    padding: 10px 15px;
+    background-color: #0077cc;
+    
+  }
+  
+  button:disabled {
+    background-color: #686868;
+    cursor: not-allowed;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  /* Map specific styles */
+  .map-container {
+    height: 400px;
+    margin-bottom: 20px;
+  }
+  
